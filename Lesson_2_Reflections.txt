@@ -1,19 +1,21 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A new git repository is created in current working directory.  You need to initialize in order to make commits.
+	A new git repository is created in current working directory.  You need to initialize in order to make commits.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The staging area lets you choose which files to commit before committing.  It adds some value IDK.
+	The staging area lets you choose which files to commit before committing.  It adds some value IDK.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-You can use git diff with the staging area to make sure you are only adding one logical change per commit.
+	You can use git diff with the staging area to make sure you are only adding one logical change per commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	Branches are helpful if you want to make different versions of your code.
 
 How do the diagrams help you visualize the branch structure?
 
